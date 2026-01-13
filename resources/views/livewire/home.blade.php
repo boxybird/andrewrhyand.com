@@ -11,6 +11,9 @@ new class extends Component {
         ];
     }
 }; ?>
+<x-slot name="headerTitle">
+    Projects
+</x-slot>
 
 <div class="container gap-16 grid grid-cols-1 overflow-x-clip max-w-7xl mt-8 sm:px-6 md:px-24 md:mt-16">
     @foreach ($projects as $project)

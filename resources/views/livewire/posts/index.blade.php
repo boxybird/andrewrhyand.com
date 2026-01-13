@@ -12,7 +12,7 @@ new class extends Component {
     }
 }; ?>
 <x-slot name="headerTitle">
-    Blog
+    Posts
 </x-slot>
 
 <div class="container max-w-3xl mx-auto px-6 py-24">

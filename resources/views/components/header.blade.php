@@ -5,11 +5,14 @@
             <a class="hover:text-red-900" href="{{ route('home') }}">andrewrhyand.com</a>
         </div>
         <div class="flex gap-4 text-red-700">
+            <a class="hover:text-red-900" href="{{ route('posts.index') }}">blog</a>
             <a class="hover:text-red-900" href="https://twitter.com/AndrewRhyand">connect</a>
             <a class="hover:text-red-900" href="https://github.com/boxybird">github</a>
         </div>
     </nav>
-    <h1 class="container font-bold leading-none max-w-7xl mt-8 text-[clamp(3rem,1rem_+_9vw,9rem)] uppercase sm:mt-16 sm:px-6 md:mt-24 md:px-24">Projects</h1>
+    <h1 class="container font-bold leading-none max-w-7xl mt-8 text-[clamp(3rem,1rem_+_9vw,9rem)] uppercase sm:mt-16 sm:px-6 md:mt-24 md:px-24">
+        {{ $title }}
+    </h1>
     <div class="bg-amber-400 h-9 md:h-12"></div>
     <div class="bg-orange-700 h-9 md:h-12"></div>
     <div class="bg-red-700 h-9 md:h-12"></div>

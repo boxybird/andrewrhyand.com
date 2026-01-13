@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
         @vite('resources/css/app.css')
-        @vite('resources/js/app.js') 
+        @vite('resources/js/app.js')
 
         @if (app()->isProduction())
             <!-- Google tag (gtag.js) -->
@@ -29,7 +29,7 @@
          @endif
     </head>
     <body class="antialiased font-sans">
-        <x-header />
+        <x-header :title="$headerTitle ?? null" />
         <main>
             {{ $slot }}
         </main>

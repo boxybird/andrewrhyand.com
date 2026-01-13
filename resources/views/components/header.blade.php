@@ -5,7 +5,7 @@
             <a class="hover:text-red-900" href="{{ route('home') }}">andrewrhyand.com</a>
         </div>
         <div class="flex gap-4 text-red-700">
-            <a class="hover:text-red-900" href="{{ route('posts.index') }}">blog</a>
+            <a class="hover:text-red-900" href="{{ route('posts.index') }}">posts</a>
             <a class="hover:text-red-900" href="https://twitter.com/AndrewRhyand">connect</a>
             <a class="hover:text-red-900" href="https://github.com/boxybird">github</a>
         </div>

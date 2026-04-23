@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\Mail;
 use Livewire\Attributes\Validate;
 use Livewire\Volt\Component;
 
-new class extends Component {
+new class extends Component
+{
     #[Validate('required|string|max:100')]
     public string $name = '';
 
@@ -96,6 +97,7 @@ new class extends Component {
                     <button
                         type="button"
                         class="hover:text-red-900 px-4 py-2"
+                        wire:click="reset_form"
                         onclick="this.closest('dialog').close()"
                     >
                         cancel

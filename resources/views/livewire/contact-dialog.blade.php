@@ -49,7 +49,7 @@ new class extends Component
 }; ?>
 
 <div>
-    <dialog id="contact-dialog" class="backdrop:bg-black/40 max-w-lg p-6 rounded shadow-lg w-11/12">
+    <dialog id="contact-dialog" wire:ignore.self class="backdrop:bg-black/40 border-4 border-black max-w-lg p-6 shadow-square shadow-red-700 w-11/12">
         @if ($sent)
             <div class="space-y-4">
                 <h2 class="font-bold text-lg">thanks — message sent</h2>
@@ -57,7 +57,7 @@ new class extends Component
                 <div class="flex gap-2 justify-end">
                     <button
                         type="button"
-                        class="bg-red-700 hover:bg-red-900 px-4 py-2 rounded text-white"
+                        class="bg-red-700 hover:bg-red-900 px-4 py-2 text-white"
                         wire:click="reset_form"
                         onclick="this.closest('dialog').close()"
                     >
@@ -71,19 +71,19 @@ new class extends Component
 
                 <label class="block">
                     <span class="block mb-1 text-sm">name</span>
-                    <input type="text" wire:model="name" class="border px-3 py-2 rounded w-full" />
+                    <input type="text" wire:model="name" class="border-2 border-black px-3 py-2 w-full" />
                     @error('name') <span class="text-red-700 text-sm">{{ $message }}</span> @enderror
                 </label>
 
                 <label class="block">
                     <span class="block mb-1 text-sm">email</span>
-                    <input type="email" wire:model="email" class="border px-3 py-2 rounded w-full" />
+                    <input type="email" wire:model="email" class="border-2 border-black px-3 py-2 w-full" />
                     @error('email') <span class="text-red-700 text-sm">{{ $message }}</span> @enderror
                 </label>
 
                 <label class="block">
                     <span class="block mb-1 text-sm">message</span>
-                    <textarea wire:model="messageBody" rows="5" class="border px-3 py-2 rounded w-full"></textarea>
+                    <textarea wire:model="messageBody" rows="5" class="border-2 border-black px-3 py-2 w-full"></textarea>
                     @error('messageBody') <span class="text-red-700 text-sm">{{ $message }}</span> @enderror
                 </label>
 
@@ -104,7 +104,7 @@ new class extends Component
                     </button>
                     <button
                         type="submit"
-                        class="bg-red-700 hover:bg-red-900 px-4 py-2 rounded text-white"
+                        class="bg-red-700 hover:bg-red-900 px-4 py-2 text-white"
                         wire:loading.attr="disabled"
                     >
                         <span wire:loading.remove wire:target="submit">send</span>

@@ -15,3 +15,13 @@ it('builds the mailable with subject, reply-to, and body data', function () {
     $mail->assertSeeInHtml('ada@example.com');
     $mail->assertSeeInHtml('Hello from the contact form.');
 });
+
+it('escapes HTML in the message body', function () {
+    $mail = new ContactMessage(
+        name: 'Ada',
+        email: 'ada@example.com',
+        messageBody: '<script>alert(1)</script>',
+    );
+
+    $mail->assertDontSeeInHtml('<script>alert(1)</script>', false);
+});

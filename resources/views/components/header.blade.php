@@ -7,7 +7,13 @@
         </div>
         <div class="flex gap-4 text-red-700">
 {{--            <a class="hover:text-red-900" href="{{ route('posts.index') }}">posts</a>--}}
-            <a class="hover:text-red-900" href="https://twitter.com/AndrewRhyand">connect</a>
+            <button
+                type="button"
+                class="hover:text-red-900"
+                onclick="document.getElementById('contact-dialog').showModal()"
+            >
+                contact
+            </button>
             <a class="hover:text-red-900" href="https://github.com/boxybird">github</a>
         </div>
     </nav>
@@ -19,4 +25,5 @@
     <div class="bg-red-700 h-9 md:h-12"></div>
     <div class="bg-pink-900 h-9 md:h-12"></div>
     <div class="bg-purple-900 h-9 md:h-12"></div>
+    <livewire:contact-dialog />
 </header>

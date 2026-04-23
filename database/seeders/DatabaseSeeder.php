@@ -166,7 +166,7 @@ class DatabaseSeeder extends Seeder
                     'Uses WordPress template hierarchy for routing',
                     'Powered by custom plugin: <a class="text-indigo-600 underline" href="https://github.com/boxybird/wordpress-inertia-plugin" target="_blank">GitHub Repo</a>',
                 ],
-            ]
+            ],
         ];
 
         foreach ($rows as $row) {

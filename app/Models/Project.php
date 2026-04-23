@@ -13,11 +13,11 @@ class Project extends Model
 
     protected $casts = [
         'details' => 'array',
-        'roles'   => 'array',
+        'roles' => 'array',
     ];
 
     public function imageUrl(): string
     {
-        return asset('/storage/images/' . $this->image);
+        return asset('/storage/images/'.$this->image);
     }
 }

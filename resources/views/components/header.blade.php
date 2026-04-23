@@ -6,7 +6,7 @@
             <a class="hidden sm:inline hover:text-red-900" href="{{ route('home') }}">andrew rhyand</a>
         </div>
         <div class="flex gap-4 text-red-700">
-            <a class="hover:text-red-900" href="{{ route('posts.index') }}">posts</a>
+{{--            <a class="hover:text-red-900" href="{{ route('posts.index') }}">posts</a>--}}
             <a class="hover:text-red-900" href="https://twitter.com/AndrewRhyand">connect</a>
             <a class="hover:text-red-900" href="https://github.com/boxybird">github</a>
         </div>

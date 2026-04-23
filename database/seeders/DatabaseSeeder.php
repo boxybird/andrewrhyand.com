@@ -11,6 +11,19 @@ class DatabaseSeeder extends Seeder
     {
         $rows = [
             [
+                'name' => 'Alibi.com',
+                'slug' => 'alibi',
+                'url' => 'https://alibi.com',
+                'image' => 'alibi.webp',
+                'description' => 'A local paper magazine turned digital.',
+                'roles' => ['Developer', 'Designer'],
+                'details' => [
+                    'Plays nicely with SEO plugins',
+                    'Uses WordPress template hierarchy for routing',
+                    'Powered by custom plugin: <a class="text-indigo-600 underline" href="https://github.com/boxybird/wordpress-inertia-plugin" target="_blank">GitHub Repo</a>',
+                ],
+            ],
+            [
                 'name' => 'Decay',
                 'slug' => 'decay',
                 'url' => 'https://decay.andrewrhyand.com',
@@ -59,19 +72,6 @@ class DatabaseSeeder extends Seeder
                 'roles' => ['Developer', 'Designer'],
                 'details' => [
                     'Aggregates events from a network of merchants using REST API',
-                ],
-            ],
-            [
-                'name' => 'Alibi.com',
-                'slug' => 'alibi',
-                'url' => 'https://alibi.com',
-                'image' => 'alibi.webp',
-                'description' => 'A local paper magazine turned digital.',
-                'roles' => ['Developer', 'Designer'],
-                'details' => [
-                    'Plays nicely with SEO plugins',
-                    'Uses WordPress template hierarchy for routing',
-                    'Powered by custom plugin: <a class="text-indigo-600 underline" href="https://github.com/boxybird/wordpress-inertia-plugin" target="_blank">GitHub Repo</a>',
                 ],
             ],
             [

@@ -9,11 +9,12 @@ class Project extends Model
 {
     use HasFactory;
 
-    protected $fillable = [];
+    protected $guarded = [];
 
     protected $casts = [
         'details' => 'array',
         'roles' => 'array',
+        'technologies' => 'array',
     ];
 
     public function imageUrl(): string

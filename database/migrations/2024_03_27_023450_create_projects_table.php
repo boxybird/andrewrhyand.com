@@ -16,10 +16,11 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug')->unique();
             $table->string('image');
-            $table->string('url');
+            $table->string('url')->nullable();
             $table->string('description');
             $table->json('roles');
-            $table->json('details');
+            $table->json('technologies')->nullable();
+            $table->json('details')->nullable();
             $table->timestamps();
         });
     }

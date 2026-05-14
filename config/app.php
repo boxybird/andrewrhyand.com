@@ -21,7 +21,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    'description' => env('APP_DESCRIPTION', ''),
+    'description' => env('APP_DESCRIPTION', 'Senior full-stack engineer in Albuquerque, NM. A selected portfolio of web projects spanning Vue, Svelte, React, Astro, and Laravel.'),
 
     /*
     |--------------------------------------------------------------------------

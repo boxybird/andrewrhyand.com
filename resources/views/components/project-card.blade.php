@@ -80,7 +80,7 @@
             </span>
             @if ($is_clickable)
                 <svg class="absolute duration-300 pointer-events-none -right-10 rotate-45 -top-10 w-24 group-hover:-right-12 group-hover:-top-12 {{ $text_color_hover }}"
-                    fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <path
                         d="M256 82.7l22.6 22.6 192 192L493.3 320 448 365.3l-22.6-22.6L256 173.3 86.6 342.6 64 365.3 18.7 320l22.6-22.6 192-192L256 82.7z" />
                 </svg>

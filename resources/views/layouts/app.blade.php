@@ -7,7 +7,7 @@
         <title>{{ $title ?? config('app.name') }}</title>
         <meta name="description" content="{{ $description ?? config('app.description') }}">
 
-        <link rel="icon" href="{{ asset('/storage/assets/favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

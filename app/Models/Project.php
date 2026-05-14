@@ -19,6 +19,6 @@ class Project extends Model
 
     public function imageUrl(): string
     {
-        return asset('/storage/images/'.$this->image);
+        return asset('/images/'.$this->image);
     }
 }

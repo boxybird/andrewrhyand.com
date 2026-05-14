@@ -10,19 +10,19 @@
     };
 
     $bg_button_color = match ($index % 5) {
-        0 => 'bg-amber-400',
-        1 => 'bg-orange-700',
-        2 => 'bg-red-700',
-        3 => 'bg-pink-900',
-        4 => 'bg-purple-900',
+        0 => 'bg-amber-400/90',
+        1 => 'bg-orange-700/90',
+        2 => 'bg-red-700/90',
+        3 => 'bg-pink-900/90',
+        4 => 'bg-purple-900/90',
     };
 
     $bg_opacity_color = match ($index % 5) {
-        0 => 'bg-amber-100',
-        1 => 'bg-orange-100',
-        2 => 'bg-red-100',
-        3 => 'bg-pink-100',
-        4 => 'bg-purple-100',
+        0 => 'bg-amber-400/15',
+        1 => 'bg-orange-700/15',
+        2 => 'bg-red-700/15',
+        3 => 'bg-pink-900/15',
+        4 => 'bg-purple-900/15',
     };
 
     $text_color_hover = match ($index % 5) {
@@ -41,18 +41,13 @@
         4 => 'shadow-purple-900',
     };
 
-    $button_text_color = match ($index % 5) {
-        0 => 'text-black',
-        default => 'text-white',
-    };
-
     $is_clickable = ! empty($project->url);
     $wrapper_tag = $is_clickable ? 'a' : 'div';
     $button_label = $is_clickable ? 'View' : 'Pre-launch';
 @endphp
 
 <{{ $wrapper_tag }}
-    class="border-4 border-black shadow-square {{ $shadow_color }} {{ ! $is_clickable ? 'opacity-75 cursor-not-allowed' : '' }}"
+    class="border-4 border-black shadow-square {{ $shadow_color }} {{ ! $is_clickable ? 'cursor-not-allowed' : '' }}"
     @if ($is_clickable) href="{{ $project->url }}" target="_blank" @endif>
     <div class="grid grid-cols-1 {{ $is_clickable ? 'group' : '' }} lg:grid-cols-[48%_1fr] {{ $bg_opacity_color }}">
         <img
@@ -80,7 +75,7 @@
                     {{ implode(' · ', $project->technologies) }}
                 </p>
             @endif
-            <span class="absolute border-b-4 border-l-2 duration-300 font-medium px-8 py-2 right-0 top-0 tracking-wider uppercase {{ $button_text_color }} {{ $bg_button_color }} {{ $border_color }}">
+            <span class="absolute border-b-4 border-l-2 duration-300 font-medium px-8 py-2 right-0 text-white top-0 tracking-wider uppercase {{ $bg_button_color }} {{ $border_color }}">
                 {{ $button_label }}
             </span>
             @if ($is_clickable)

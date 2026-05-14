@@ -41,6 +41,11 @@
         4 => 'shadow-purple-900',
     };
 
+    $button_text_color = match ($index % 5) {
+        0 => 'text-black',
+        default => 'text-white',
+    };
+
     $is_clickable = ! empty($project->url);
     $wrapper_tag = $is_clickable ? 'a' : 'div';
     $button_label = $is_clickable ? 'View' : 'Pre-launch';
@@ -75,7 +80,7 @@
                     {{ implode(' · ', $project->technologies) }}
                 </p>
             @endif
-            <span class="absolute border-b-4 border-l-2 duration-300 font-medium px-8 py-2 right-0 text-white top-0 tracking-wider uppercase {{ $bg_button_color }} {{ $border_color }}">
+            <span class="absolute border-b-4 border-l-2 duration-300 font-medium px-8 py-2 right-0 top-0 tracking-wider uppercase {{ $button_text_color }} {{ $bg_button_color }} {{ $border_color }}">
                 {{ $button_label }}
             </span>
             @if ($is_clickable)

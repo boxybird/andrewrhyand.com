@@ -1,11 +1,11 @@
 # Apaluma Senior Engineer Application — Strategy & Design
 
 **Date:** 2026-05-14
-**Status:** Phase 1 (resume) draft v2 complete; Phases 0, 2–5 designed but not executed
+**Status:** Phase 0 message sent; Phase 1 (resume) draft v2 + Phase 4 (cover letter) v1 complete and soaking; Phases 2, 3, 5 designed but not executed
 **Applicant:** Andrew Rhyand
 **Target role:** Senior Engineer (Full-Stack, frontend-leaning) at Apaluma, Inc., Albuquerque NM
-**Referral:** Friend at Apaluma (status: not yet activated; Phase 0)
-**Companion artifact:** `2026-05-14-apaluma-resume-draft.md`
+**Referral:** Friend at Apaluma (message sent; awaiting response)
+**Companion artifacts:** `resume-draft.md`, `cover-letter-draft.md`
 
 ## Goal
 
@@ -88,7 +88,7 @@ Andrew is a **senior full-stack engineer, frontend-leaning, with broad modern-st
 
 ## Phase 1 design — Resume
 
-The full v2 draft lives in `2026-05-14-apaluma-resume-draft.md`. Design decisions captured here:
+The full v2 draft lives in `resume-draft.md`. Design decisions captured here:
 
 ### Strategic moves
 

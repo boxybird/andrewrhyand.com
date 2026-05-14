@@ -2,7 +2,8 @@
 
 **Date:** 2026-05-14
 **Status:** v2 content draft; soaking before review
-**Strategy doc:** `2026-05-14-apaluma-application-strategy-design.md`
+**Strategy doc:** `strategy-design.md`
+**Companion:** `cover-letter-draft.md`
 **Format:** content only — file-type and visual treatment decisions deferred
 
 This file is the editable, reusable artifact. Content here will be sliced and remixed for LinkedIn (Phase 2), the cover letter (Phase 4), and the portfolio site (Phase 3).

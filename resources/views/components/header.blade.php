@@ -7,6 +7,7 @@
         </div>
         <div class="flex gap-4 text-red-700">
 {{--            <a class="hover:text-red-900" href="{{ route('posts.index') }}">posts</a>--}}
+            <a class="hover:text-red-900" href="{{ route('about') }}">about</a>
             <button
                 type="button"
                 class="hover:text-red-900"

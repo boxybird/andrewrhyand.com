@@ -1,0 +1,32 @@
+<?php
+
+use Livewire\Volt\Component;
+
+new class extends Component {}; ?>
+<x-slot name="headerTitle">
+    About
+</x-slot>
+
+<div class="container max-w-7xl mt-8 sm:px-6 md:px-24 md:mt-16">
+    <div class="max-w-3xl space-y-6 text-lg leading-relaxed">
+        <p class="text-xl">
+            Hi, I'm Andrew. Senior full-stack engineer, based here in Albuquerque, New Mexico. I've been writing software since 2010, and shipping production web applications professionally since 2021 when I joined <a class="font-semibold text-red-700 hover:text-red-900" href="https://thegeckoagency.com" target="_blank">The Gecko Agency</a>.
+        </p>
+
+        <p>
+            My day-to-day work spans modern stacks (Vue, Svelte, React, Astro, and Laravel) with deep work in API design, performance, caching, and AI feature integration. I'm comfortable across the stack: from architecture and stack selection during client discovery, through frontend craft, backend services, and infrastructure decisions. At Gecko I'm one of three senior engineers, and architectural recommendations during sales conversations are a real part of the role. The "Business Strategist" half of my title isn't decorative.
+        </p>
+
+        <p>
+            Since late 2025, I've been a daily practitioner of agentic coding using tools like Claude Code and Codex. What's changed for me over those months isn't <em>what</em> I think about as an engineer (architecture, performance, the business domain, the actual humans using the software), but how much time I have to think about it well, instead of context-switching between strategy and line-by-line typing. I've developed working judgment for what to delegate to agents, where they drift, and where my own attention has to stay.
+        </p>
+
+        <p>
+            Right now I'm interested in how that practice applies to messy, real-world data problems. Most recently through Groundtruth, a personal project unifying New Mexico's fragmented public water data (groundwater levels, well permits, water rights) into a single address-searchable interface. The kind of work that sits at the intersection of public-good data access and engineering judgment.
+        </p>
+
+        <p>
+            If you'd like to get in touch, the contact button in the header opens a short form. I'm also on <a class="font-semibold text-red-700 hover:text-red-900" href="https://github.com/boxybird" target="_blank">GitHub</a> and <a class="font-semibold text-red-700 hover:text-red-900" href="https://www.linkedin.com/in/andrew-rhyand/" target="_blank">LinkedIn</a>, both linked up top.
+        </p>
+    </div>
+</div>

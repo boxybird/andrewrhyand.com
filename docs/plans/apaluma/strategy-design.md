@@ -33,7 +33,7 @@ Land the Senior Engineer role at Apaluma. The application package and downstream
 
 Andrew is a **senior full-stack engineer, frontend-leaning, with broad modern-stack range and an active daily agentic-coding practice**. The thesis has four pillars:
 
-1. **Range, not WordPress.** 5 years at a small Albuquerque agency where the work has spanned Vue, Svelte, React, Astro, Laravel, custom PHP APIs, performance/caching/CDN, queue infrastructure, and AI integration. WordPress is one vertical served, not the identity. He has been writing software since 2010.
+1. **Range, not WordPress.** 5 years at a small Missoula agency where the work has spanned Vue, Svelte, React, Astro, Laravel, custom PHP APIs, performance/caching/CDN, queue infrastructure, and AI integration. WordPress is one vertical served, not the identity. He has been writing software since 2010.
 2. **Senior judgment.** Architectural decisions during sales discovery (the "Business Strategist" half of his actual title), informal mentorship across the team, ownership across the stack.
 3. **AI-native engineering practice.** Daily practitioner of agentic coding (Claude Code, Codex) since late 2025. Multi-agent workflows. Workflow discipline for catching agent drift. The senior insight: agentic coding doesn't change what senior engineers think about; it gives them bandwidth to do that thinking well instead of context-switching between strategy and typing.
 4. **Local + warm.** Lives in Albuquerque (eliminates the quarterly-travel friction). Has a friend at the company. Both signals are real and underweighted if not surfaced.

@@ -75,7 +75,7 @@
                     {{ implode(' · ', $project->technologies) }}
                 </p>
             @endif
-            <span class="absolute border-b-4 border-l-2 duration-300 font-medium px-8 py-2 right-0 text-white top-0 tracking-wider uppercase {{ $bg_button_color }} {{ $border_color }}">
+            <span class="absolute border-b-4 border-l-2 duration-300 font-semibold px-8 py-2 right-0 text-white top-0 tracking-wider uppercase {{ $bg_button_color }} {{ $border_color }}">
                 {{ $button_label }}
             </span>
             @if ($is_clickable)

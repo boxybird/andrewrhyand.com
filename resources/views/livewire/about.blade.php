@@ -22,7 +22,7 @@ new class extends Component {}; ?>
         </p>
 
         <p>
-            Right now I'm exploring how that practice applies to messy, real-world data problems. Two recent independent projects sit at that intersection. Groundtruth unifies New Mexico's fragmented public water data (groundwater levels, well permits, water rights) into a single address-searchable interface. <a class="font-semibold text-red-700 hover:text-red-900" href="https://locicodex.com" target="_blank">Loci</a> is a mobile companion app that captures in-game moments and recalls them later by mood, topic, or partial memory using on-device vector embeddings. Same problem class as cloud-based semantic search, but local-first.
+            Right now I'm exploring how that practice applies to messy, real-world data problems. Most recently through Groundtruth, a personal project unifying New Mexico's fragmented public water data (groundwater levels, well permits, water rights) into a single address-searchable interface. The kind of work that sits at the intersection of public-good data access and engineering judgment.
         </p>
 
         <p>

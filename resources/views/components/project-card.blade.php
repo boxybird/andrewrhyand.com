@@ -44,15 +44,10 @@
     $is_clickable = ! empty($project->url);
     $wrapper_tag = $is_clickable ? 'a' : 'div';
     $button_label = $is_clickable ? 'View' : 'Pre-launch';
-
-    if (! $is_clickable) {
-        $bg_button_color = 'bg-slate-500/90';
-        $border_color = 'border-slate-700';
-    }
 @endphp
 
 <{{ $wrapper_tag }}
-    class="border-4 border-black shadow-square {{ $shadow_color }} {{ ! $is_clickable ? 'opacity-75 cursor-default' : '' }}"
+    class="border-4 border-black shadow-square {{ $shadow_color }} {{ ! $is_clickable ? 'opacity-75 cursor-not-allowed' : '' }}"
     @if ($is_clickable) href="{{ $project->url }}" target="_blank" @endif>
     <div class="grid grid-cols-1 {{ $is_clickable ? 'group' : '' }} lg:grid-cols-[48%_1fr] {{ $bg_opacity_color }}">
         <img

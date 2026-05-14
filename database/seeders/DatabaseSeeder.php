@@ -109,7 +109,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'Gobblygoop.io',
                 'slug' => 'gobblygoop',
-                'url' => null,
+                'url' => 'https://gobblygoop.andrewrhyand.com/mdasilva/prompts',
                 'image' => 'gobblygoop.webp',
                 'description' => 'An AI image sharing app demo built around prompt-and-generation flows.',
                 'roles' => ['Developer', 'Designer'],

@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
                 'image' => 'movie-madness.webp',
                 'description' => 'An AI-powered semantic search experience for an independent Portland video rental business with a 100,000+ title catalog.',
                 'roles' => ['Developer'],
-                'technologies' => ['Laravel', 'HTMX', 'Meilisearch', 'Vector Embeddings', 'PHP'],
+                'technologies' => ['PHP', 'HTMX', 'Meilisearch', 'Vector Embeddings'],
                 'details' => [
                     'Vector-embedding search over a 100,000+ title catalog, enabling lookup by mood, theme, and partial recall rather than exact-match titles',
                     'Built as a standalone app embedded within an existing WordPress site',
@@ -35,7 +35,7 @@ class DatabaseSeeder extends Seeder
                 'details' => [
                     'Researched small-theater operational pain points (high checkout friction, expensive integrations, thin margins)',
                     'Designed the full UX from scratch using agentic AI design tools',
-                    'Built end-to-end with agentic AI coding tools — round-up-to-donate checkout, pre-purchase concessions, rewards, gift cards, and private rental inquiries',
+                    'Built end-to-end with agentic AI coding tools: round-up-to-donate checkout, pre-purchase concessions, rewards, gift cards, and private rental inquiries',
                 ],
             ],
             [
@@ -48,7 +48,7 @@ class DatabaseSeeder extends Seeder
                 'technologies' => ['Laravel', 'PostgreSQL', 'PostGIS', 'React', 'Inertia.js'],
                 'details' => [
                     'Data ingestion pipelines pulling from disparate state agency file systems, library archives, and legacy APIs',
-                    'AI normalizes heterogeneous records into a unified schema — replacing what is otherwise a manual, labor-intensive process',
+                    'AI normalizes heterogeneous records into a unified schema, replacing what is otherwise a manual, labor-intensive process',
                     'PostGIS geospatial queries for address-based lookup and point-in-polygon checks against water rights boundaries',
                 ],
             ],
@@ -104,19 +104,6 @@ class DatabaseSeeder extends Seeder
                 'details' => [
                     'Aggregates events from a network of merchants via REST API',
                     'Real-time interactivity powered by Livewire',
-                ],
-            ],
-            [
-                'name' => 'Gobblygoop.io',
-                'slug' => 'gobblygoop',
-                'url' => 'https://gobblygoop.andrewrhyand.com/mdasilva/prompts',
-                'image' => 'gobblygoop.webp',
-                'description' => 'An AI image sharing app demo built around prompt-and-generation flows.',
-                'roles' => ['Developer', 'Designer'],
-                'technologies' => ['Laravel', 'Livewire', 'Tailwind'],
-                'details' => [
-                    'Prompt-driven image sharing with per-user prompt galleries',
-                    'Real-time interactions powered by Livewire',
                 ],
             ],
             [

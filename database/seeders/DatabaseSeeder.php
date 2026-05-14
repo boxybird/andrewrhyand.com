@@ -107,6 +107,19 @@ class DatabaseSeeder extends Seeder
                 ],
             ],
             [
+                'name' => 'Gobblygoop.io',
+                'slug' => 'gobblygoop',
+                'url' => null,
+                'image' => 'gobblygoop.webp',
+                'description' => 'An AI image sharing app demo built around prompt-and-generation flows.',
+                'roles' => ['Developer', 'Designer'],
+                'technologies' => ['Laravel', 'Livewire', 'Tailwind'],
+                'details' => [
+                    'Prompt-driven image sharing with per-user prompt galleries',
+                    'Real-time interactions powered by Livewire',
+                ],
+            ],
+            [
                 'name' => 'Decay',
                 'slug' => 'decay',
                 'url' => 'https://decay.andrewrhyand.com',

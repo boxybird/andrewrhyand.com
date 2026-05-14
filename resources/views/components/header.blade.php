@@ -15,6 +15,7 @@
                 contact
             </button>
             <a class="hover:text-red-900" href="https://github.com/boxybird">github</a>
+            <a class="hover:text-red-900" href="https://www.linkedin.com/in/andrew-rhyand/">linkedin</a>
         </div>
     </nav>
     <h1 class="container font-bold leading-none max-w-7xl mt-8 text-[clamp(3rem,1rem_+_9vw,9rem)] uppercase sm:mt-16 sm:px-6 md:mt-24 md:px-24">

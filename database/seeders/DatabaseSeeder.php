@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
                 'image' => 'movie-madness.webp',
                 'description' => 'An AI-powered semantic search experience for an independent Portland video rental business with a 100,000+ title catalog.',
                 'roles' => ['Developer'],
-                'technologies' => ['PHP', 'HTMX', 'Meilisearch', 'Vector Embeddings'],
+                'technologies' => ['Vector Embeddings', 'Meilisearch', 'HTMX'],
                 'details' => [
                     'Vector-embedding search over a 100,000+ title catalog, enabling lookup by mood, theme, and partial recall rather than exact-match titles',
                     'Built as a standalone app embedded within an existing WordPress site',

@@ -10,19 +10,19 @@
     };
 
     $bg_button_color = match ($index % 5) {
-        0 => 'bg-amber-400/90',
-        1 => 'bg-orange-700/90',
-        2 => 'bg-red-700/90',
-        3 => 'bg-pink-900/90',
-        4 => 'bg-purple-900/90',
+        0 => 'bg-amber-400',
+        1 => 'bg-orange-700',
+        2 => 'bg-red-700',
+        3 => 'bg-pink-900',
+        4 => 'bg-purple-900',
     };
 
     $bg_opacity_color = match ($index % 5) {
-        0 => 'bg-amber-400/15',
-        1 => 'bg-orange-700/15',
-        2 => 'bg-red-700/15',
-        3 => 'bg-pink-900/15',
-        4 => 'bg-purple-900/15',
+        0 => 'bg-amber-100',
+        1 => 'bg-orange-100',
+        2 => 'bg-red-100',
+        3 => 'bg-pink-100',
+        4 => 'bg-purple-100',
     };
 
     $text_color_hover = match ($index % 5) {
